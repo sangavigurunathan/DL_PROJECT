@@ -24,35 +24,8 @@ Support Vector Machine
 Random Forest
 Gradient Boosting
 Model Evaluation: Using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/fake-news-detection.git
-Navigate to the project directory:
 
-bash
-Copy code
-cd fake-news-detection
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Training a Model
-Run the following command to train a model:
-
-bash
-Copy code
-python src/train_model.py --model <MODEL_NAME> --data_path data/
-Evaluating a Model
-Evaluate the trained model using:
-
-bash
-Copy code
-python src/evaluate_model.py --model_path models/best_model.pkl --data_path data/test.csv
 Results
 The Gradient Boosting model achieved the best performance, with an accuracy of 92% and an F1-score of 91%, outperforming other models in identifying fake news. The detailed results are presented in the report for comparison among models.
 
